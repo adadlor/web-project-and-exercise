@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>formulaire projet isi</title>
+    <link rel="stylesheet" href="css/CSS.css">
+    <script type="text/javascript" src="js/gestionFormulaire.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>  Projet ISI 2021  </h1> 
+      <h2>Partie 1 du projet</h2>
+      <p>Valentin Wendling L1 info</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li class="menu-gauche"><a href="index.html">Partie 1</a></li>
+        <li class="menu-centre"><a href="partie2.html">Partie 2</a></li>
+        <li class="menu-droit"><a href="Compterendu.html">compte rendu</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <form method="post" class="formulairePourBDProf">
+        <label for="text">entrer votre requête sql pour la base de donnée prof</label>
+        <input type="text" name="requete"></input><br>
+        <input type="submit">
+      </form>
+      <article class="affichageBD">
+        <table></table>
+      </article>
+		
+      <article class="affichageDesErreurs"></article>
+    </main>
+  </body>
+</html>
